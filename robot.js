@@ -31,8 +31,5 @@ function isWorkday(robot, today) {
   return today !== robot.dayOff;
 }
 
-module.exports.newRobot = newRobot;
-module.exports.station = station;
-module.exports.isWorkday = isWorkday;
-module.exports.prioritizeTasks = prioritizeTasks;
+module.exports = { newRobot, station, isWorkday, prioritizeTasks };
 
