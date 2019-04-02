@@ -1,4 +1,4 @@
-const {newRobot, station, isWorkDay, prioritizeTasks}  = require("./robot.js").newRobot;
+const {newRobot, station, isWorkday, prioritizeTasks}  = require("./robot.js");
 
 // remove .skip when you're ready to implement the test
 test.skip('test_that_foreign_robot_needing_repairs_sent_to_station_1', () => {
